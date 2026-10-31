@@ -1,0 +1,121 @@
+{
+  "users": [
+    {
+      "id": "usr_1",
+      "name": "Aarav Nair",
+      "email": "customer@vehiclerental.com",
+      "passwordHash": "$2b$10$YuzRVYHPKc.MpnxSTvc9O.ram0lD/CJyvrm4mSeg7SuSuIapMwD1u",
+      "role": "customer",
+      "phone": "9876543210",
+      "address": "Koramangala, Bengaluru",
+      "status": "active",
+      "licenseNumber": "DL-28-2023",
+      "drivingCredentials": {
+        "verified": true,
+        "licenseType": "Car",
+        "expiryDate": "2028-12-31"
+      }
+    },
+    {
+      "id": "usr_2",
+      "name": "Admin User",
+      "email": "admin@vehiclerental.com",
+      "passwordHash": "$2b$10$cAPsKv9YVy97YIyEHF.6oOtBZqwOK8wNnOxrNpMqdZOu25RXsHXZm",
+      "role": "admin",
+      "phone": "9123456789",
+      "address": "Head Office, Bengaluru",
+      "status": "active",
+      "licenseNumber": "DL-40-2021",
+      "drivingCredentials": {
+        "verified": true,
+        "licenseType": "Car",
+        "expiryDate": "2027-11-30"
+      }
+    },
+    {
+      "id": "usr_afae42e4-f05f-47b4-8e25-6efae8a6e5c3",
+      "name": "harikishan",
+      "email": "gabuharikishanreddy.24.csm@anits.edu.in",
+      "passwordHash": "$2b$10$0KC6vgnUR05rY42pzEgybuUk4Hxjml49.qU.HDrrNzEQjxnIPfvze",
+      "role": "customer",
+      "phone": "7013318178",
+      "address": "17-2, varahgiri colony 2",
+      "status": "active",
+      "licenseNumber": "",
+      "drivingCredentials": {
+        "verified": false,
+        "licenseType": "Car",
+        "expiryDate": "2028-12-31"
+      }
+    },
+    {
+      "id": "usr_4d03d3f2-85d0-493e-8c5a-bb07be66faa6",
+      "name": "Hari Kishan",
+      "email": "gabuharikishanreddy@gmail.com",
+      "passwordHash": "$2b$10$VFQjiYwZEemSxIJKwt5Aduu6NgndeBIz2LyCzzd2aKGEUmWufKc4i",
+      "role": "customer",
+      "phone": "7013318178",
+      "address": "bndjvbmfkv,pk mbgjmfmpdvkd fkjfv",
+      "status": "active",
+      "licenseNumber": "",
+      "drivingCredentials": {
+        "verified": false,
+        "licenseType": "Car",
+        "expiryDate": "2028-12-31"
+      }
+    }
+  ],
+  "bookings": [
+    {
+      "id": "bk_101",
+      "bookingId": "BK-101",
+      "userId": "usr_1",
+      "vehicleId": "veh_1",
+      "pickupDate": "2026-10-10",
+      "returnDate": "2026-10-15",
+      "pickupLocation": "Koramangala",
+      "returnLocation": "Koramangala",
+      "totalAmount": 21000,
+      "status": "Confirmed"
+    },
+    {
+      "id": "bk_4636e58e-a59a-468a-b865-4f17cc71029c",
+      "bookingId": "BK-9AE4D6C2",
+      "userId": "usr_95117ea2-dfdb-43ad-bab1-4886d9beb9e6",
+      "vehicleId": "veh_3",
+      "vehicleName": "Mercedes C-Class",
+      "pickupDate": "2026-10-08",
+      "returnDate": "2026-10-09",
+      "pickupLocation": "Whitefield",
+      "returnLocation": "Whitefield",
+      "totalAmount": 10080,
+      "status": "Confirmed"
+    },
+    {
+      "id": "bk_4788a8cf-5ab2-4819-a319-6cd884416894",
+      "bookingId": "BK-6CCF4820",
+      "userId": "usr_afae42e4-f05f-47b4-8e25-6efae8a6e5c3",
+      "vehicleId": "veh_1",
+      "vehicleName": "BMW X5",
+      "pickupDate": "2026-10-17",
+      "returnDate": "2026-10-19",
+      "pickupLocation": "Koramangala",
+      "returnLocation": "Koramangala",
+      "totalAmount": 17640,
+      "status": "Confirmed"
+    },
+    {
+      "id": "bk_d3064802-3a16-4eff-a6a4-f9ef12707062",
+      "bookingId": "BK-3F07E751",
+      "userId": "usr_4d03d3f2-85d0-493e-8c5a-bb07be66faa6",
+      "vehicleId": "veh_2",
+      "vehicleName": "Maruti Swift",
+      "pickupDate": "2026-10-25",
+      "returnDate": "2026-10-26",
+      "pickupLocation": "Indiranagar",
+      "returnLocation": "Indiranagar",
+      "totalAmount": 5040,
+      "status": "Confirmed"
+    }
+  ]
+}
